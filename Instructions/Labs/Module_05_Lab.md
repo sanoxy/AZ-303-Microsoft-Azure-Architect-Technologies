@@ -239,6 +239,22 @@ The main tasks for this exercise are as follows:
 
 1. In the Azure portal, start a **Bash** session in the Cloud Shell pane. 
 
+1. From the Cloud Shell pane, run the following to update the IP address included in the **custom-allow-rdp** rule of the network security group **az30305a-web-nsg**. This is necessary to account for the new IP address associated with the new Cloud Shell session: 
+
+   ```Bash
+   RESOURCE_GROUP_NAME=az30305a-labRG
+   NSG_NAME=az30305a-web-nsg
+   RULE_NAME=custom-allow-rdp
+
+   MY_IP=$(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//')
+
+   az network nsg rule update \
+   --resource-group $RESOURCE_GROUP_NAME \
+   --nsg-name $NSG_NAME \
+   --name $RULE_NAME \
+   --source-address-prefixes $MY_IP
+   ```
+   
 1. From the Cloud Shell pane, run the following to test load balancing of HTTP traffic to the Azure VMs in the backend pool of the Azure load balancer (replace the `<lb_IP_address>` placeholder with the IP address of the front end of the load balancer you identified earlier):
 
    ```Bash
