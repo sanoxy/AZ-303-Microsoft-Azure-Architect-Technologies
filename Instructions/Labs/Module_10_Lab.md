@@ -121,7 +121,7 @@ The main tasks for this exercise are as follows:
 
    ```powershell
    $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-   $passwordProfile.Password = 'Pa55w.rd1234'
+   $passwordProfile.Password = <Give this user a password>
    $passwordProfile.ForceChangePasswordNextLogin = $false
    New-AzureADUser -AccountEnabled $true -DisplayName 'az30310aaduser1' -PasswordProfile $passwordProfile -MailNickName 'az30310aaduser1' -UserPrincipalName "az30310aaduser1@$domainName"
    ```
@@ -248,7 +248,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 2: Test the RBAC role assignment
 
-1. From the lab computer, start a new in-private web browser session, navigate to the [Azure portal](https://portal.azure.com), and sign in by using the **az30310aaduser1** user account with the **Pa55w.rd1234** password.
+1. From the lab computer, start a new in-private web browser session, navigate to the [Azure portal](https://portal.azure.com), and sign in by using the **az30310aaduser1** user account with the password you assigned.
 
     > **Note**: Make sure to use the user principal name of the **az30310aaduser1** user account, which you recorded earlier in this lab.
     
