@@ -98,7 +98,7 @@ The main tasks for this exercise are as follows:
     | Host Network Interface2Name | **az30312a-hv-vm-nic2** |
     | Host Virtual Machine Name | **az30312a-hv-vm** |
     | Host Admin Username | **Student** |
-    | Host Admin Password | **Pa55w.rd1234** |
+    | Host Admin Password | **Give the account a password** |
 
 1. On the **Hyper-V Host Virtual Machine with nested VMs** blade, select **Review + create** and then select **Create**.
 
@@ -159,7 +159,7 @@ The main tasks for this exercise are as follows:
    |Setting|Value|
    |---|---|
    |User Name|**Student**|
-   |Password|**Pa55w.rd1234**|
+   |Password|**Give the account a password.**|
 
 1. Within the Remote Desktop session to **az30312a-hv-vm**, in the Server Manager window, click **Local Server**, click the **On** link next to the **IE Enhanced Security Configuration** label, and, in the **IE Enhanced Security Configuration** dialog box, select both **Off** options.
 
@@ -201,7 +201,7 @@ The main tasks for this exercise are as follows:
 
 1. In the Virtual Machine Connection window to **az30312a-vm1**, on the **License terms** page, select **Accept**. 
 
-1. In the Virtual Machine Connection window to **az30312a-vm1**, on the **Customize settings** page, set the password of the built-in Administrator account to **Pa55w.rd1234** and select **Finish**. 
+1. In the Virtual Machine Connection window to **az30312a-vm1**, on the **Customize settings** page, provide the password you assigned and select **Finish**. 
 
 1. In the Virtual Machine Connection window to **az30312a-vm1**, sign in by using the newly set password.
 
