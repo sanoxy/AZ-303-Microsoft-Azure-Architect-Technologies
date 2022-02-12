@@ -50,7 +50,7 @@ Windows Server admin credentials
 
 -  User Name: **Admin**
 
--  Password: **Pa55w.rd**
+-  Password: **&lt;YOUR PASSWORD&gt;**
 
 Estimated Time: 120 minutes
 
