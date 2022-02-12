@@ -34,7 +34,7 @@ Windows Server admin credentials
 
 -  User Name: **Student**
 
--  Password: **Pa55w.rd1234**
+-  Password: **&lt;YOUR PASSWORD&gt;**
 
 Estimated Time: 120 minutes
 

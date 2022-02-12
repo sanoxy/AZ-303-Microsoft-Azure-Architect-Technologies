@@ -41,7 +41,7 @@ Windows Server admin credentials
 
 -  User Name: **Student**
 
--  Password: **Pa55w.rd1234**
+-  Password: **&lt;YOUR PASSWORD&gt;**
 
 Estimated Time: 90 minutes
 
@@ -207,12 +207,12 @@ The main tasks for this exercise are as follows:
 
 1. On the **az30306a-vm0** blade, select **Connect**, in the drop-down menu, select **Bastion**, on the **Bastion** tab of the **az30306a-vm0 \| Connect** blade, select **Use Bastion**.
 
-1. When prompted, provde the following credentials and select **Connect**:
+1. When prompted, provde the following credentials and select **Connect** (replace the **&lt;YOUR PASSWORD&gt;** placeholder with a password of your choice):
 
    |Setting|Value|
    |---|---|
    |User Name|**Student**|
-   |Password|**Pa55w.rd1234**|
+   |Password|**&lt;YOUR PASSWORD&gt;**|
 
 1. Within the Remote Desktop session to **az30306a-vm0**, in the Server Manager window, select **Local Server**, select the **On** link next to the **IE Enhanced Security Configuration** label, and, in the **IE Enhanced Security Configuration** dialog box, select both **Off** options.
 
