@@ -1,13 +1,15 @@
 # AZ-303: Microsoft Azure Architect Technologies
 
+## Exam Retirement 
+
+**This repository is no longer being maintained. This exam retired on March 31, 2022.**
+
+## Archived content 
+
 - **[Link to LABS in HTML format](https://microsoftlearning.github.io/AZ-303-Microsoft-Azure-Architect-Technologies/)**
 - **[Download Latest Student Handbook and AllFiles Content](https://github.com/MicrosoftLearning/AZ-303-Microsoft-Azure-Architect-Technologies/archive/master.zip)**
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
-
-## Course Retirement 
-
-This exam will retire on March 31, 2022. A new exam, Exam AZ-305, is available. This repository will be archived on that date. 
 
 ## Security Issue - February 2022
 
