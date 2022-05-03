@@ -1,4 +1,4 @@
-# AZ-303: Microsoft Azure Architect Technologies
+# (Closed) AZ-303: Microsoft Azure Architect Technologies
 
 ## Exam Retirement 
 
